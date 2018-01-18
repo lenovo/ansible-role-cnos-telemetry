@@ -1,4 +1,4 @@
-# Ansible Role: ansible-role-cnos-telemetry - Configuring Telemetry report on Lenovo CNOS device
+# ansible-role-cnos-telemetry
 This role configures telemetry reports on the Lenovo CNOS devices.
 The results of the operation can be viewed in *results* directory.
 
