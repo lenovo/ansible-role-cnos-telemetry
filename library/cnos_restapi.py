@@ -3,21 +3,17 @@
 from __future__ import (absolute_import, division, print_function)
 __metaclass__ = type
 #
-# Copyright (C) 2017 Lenovo, Inc.
+# Copyright (c) 2017, Lenovo. All rights reserved.
 #
-# This file is part of Ansible
+# This program and the accompanying materials are licensed and made available
+# under the terms and conditions of the 3-clause BSD License that accompanies this distribution.
 #
-# Ansible is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
+# The full text of the license may be found at
 #
-# Ansible is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
+# https://opensource.org/licenses/BSD-3-Clause
 #
-# You should have received a copy of the GNU General Public License
-# along with Ansible.  If not, see <http://www.gnu.org/licenses/>.
+# THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS, WITHOUT 
+# WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
 #
 # Module to run  CNOS restapi  to Lenovo Switches
 # Lenovo Networking
