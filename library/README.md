@@ -32,7 +32,8 @@ The following are examples of using the module cnos_restapi. These are written i
     method: PUT
     jsoninp: '{"collection-interval": 20, "send-async-reports": 1,
              "send-snapshot-on-trigger": 1, "trigger-rate-limit": 1,
-              "async-full-report": 0, "trigger-rate-limit-interval": 11,              "bst-enable": 1
+              "async-full-report": 0, "trigger-rate-limit-interval": 11,
+              "bst-enable": 1}'
 
 - name: Fetch BST feature using a JSON string
   cnos_restapi:
