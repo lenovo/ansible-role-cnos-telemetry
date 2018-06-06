@@ -19,10 +19,10 @@ The following are mandatory inventory variables:
 
 Variable | Description
 --- | ---
-`username` | Specifies the username used to log into the switch
-`password` | Specifies the password used to log into the switch
+`ansible_ssh_user` | Specifies the username used to log into the switch
+`ansible_ssh_pass` | Specifies the password used to log into the switch
 `hostname` | Searches the hosts file at */etc/ansible/hosts* and identifies the IP address of the switch on which the role is going to be applied
-`deviceType` | Specifies the type of device from where the configuration will be backed up (**g8272_cnos** - G8272, **g8296_cnos** - G8296)
+`deviceType` | Specifies the type of device from where the configuration will be backed up (**g8272_cnos** - G8272, **g8296_cnos** - G8296, **g8332_cnos** - G8332, **NE10032** - NE10032, **NE1072T** - NE1072T, **NE1032** - NE1032, **NE1032T** - NE1032T, **NE2572** - NE2572)
 
 The values of the variables used need to be modified to fit the specific scenario in which you are deploying the solution. To change the values of the variables, you need to visits the *vars* directory of each role and edit the *main.yml* file located there. The values stored in this file will be used by Ansible when the template is executed.
 
